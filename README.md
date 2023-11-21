@@ -4,7 +4,7 @@ Test and improve your typing speed with the SpeedTyper project! ⌨️🚀🕹�
 
 ## Play the Game
 
-[Start Typing](https://aryan0-1maurya.github.io/speedtyper/) 🕹️
+[Start Typing](https://aryan0-1maurya.github.io/speedTyper/) 🕹️
 
 ## About the Project
 
