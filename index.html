@@ -1,0 +1,127 @@
+<!-- 
+
+      ************************************************************
+
+           ++++++++++++++    --------    +++++++++++++++++
+
+{   By ~Aryan Maurya Mr.perfect https://amsrportfolio.netlify.app  }
+
+           ++++++++++++++    --------    +++++++++++++++++
+
+      ************************************************************
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="author" content="Aryan Maurya" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <meta
+      name="description"
+      content="This is online speed typer game build for your imporove thing skill in this domain by aryan maurya enjoy your game"
+    />
+    <meta name="keywords" content="Speed Typer, typing game, typing speed test, keyboard skills, word game, fast typing, typing challenge, words per minute, improve typing, typing practice, typing accuracy, touch typing, typing tutor, educational game, skill development, typing proficiency, online typing game">
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+      integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ="
+      crossorigin="anonymous"
+    />
+    <script src="https://code.responsivevoice.org/responsivevoice.js?"></script>
+    <link rel="stylesheet" href="type.css" />
+    <title>Speed Typer</title>
+  </head>
+
+  <body>
+    <button id="settings-btn" class="settings-btn">
+      <i class="fas fa-cog"></i>
+    </button>
+    <div id="loader" class="loader">
+      <h1>👨🏿‍💻</h1>
+      <pec>Peculiar-codes</pec>
+    </div>
+    <div id="settings" class="settings">
+      <form id="settings-form">
+        <div>
+          <label for="difficulty">Difficulty</label>
+          <select id="difficulty">
+            .
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+          </select>
+        </div>
+      </form>
+    </div>
+
+    <div class="container">
+      <h2>👩‍💻 Speed Typer 👨‍💻</h2>
+      <small>Type the following:</small>
+
+      <h1 id="word"></h1>
+
+      <input
+        type="text"
+        id="text"
+        autocomplete="off"
+        placeholder="Type the word here..."
+        autofocus
+      />
+      <p id="high"></p>
+      <p class="time-container">Time left: <span id="time"></span></p>
+
+      <p class="score-container">Score: <span id="score">0</span></p>
+
+      <div id="end-game-container" class="end-game-container"></div>
+    </div>
+    <script>
+      Swal.fire({
+        icon: "success",
+        title: "Welcome All the best from Developer",
+        showConfirmButton: false,
+        timer: 1800,
+        showClass: {
+          popup: `
+     animate__animated
+     animate__fadeInUp
+     animate__faster
+   `,
+        },
+        hideClass: {
+          popup: `
+     animate__animated
+     animate__fadeOutDown
+     animate__faster
+   `,
+        },
+      });
+    </script>
+    <script src="type.js"></script>
+  </body>
+</html>
+
+<!-- 
+
+      ************************************************************
+
+           ++++++++++++++    --------    +++++++++++++++++
+
+{   By ~Aryan Maurya Mr.perfect https://amsrportfolio.netlify.app  }
+
+           ++++++++++++++    --------    +++++++++++++++++
+
+      ************************************************************
+ -->
